@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HuskieHack</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_weed_map">WeedMap</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_bindweed">Bindweed</string>
+    <string name="title_activity_broadleaf_plaintain">Broadleaf_Plaintain</string>
+    <string name="title_activity_chicory">Chicory</string>
+    <string name="title_activity_common_burdock">common_burdock</string>
+    <string name="title_activity_henbit">Henbit</string>
+    <string name="title_activity_lambs_quarters">Lambs_Quarters</string>
+    <string name="title_activity_mallow">Mallow</string>
+    <string name="title_activity_morning_glory">Morning_Glory</string>
+    <string name="title_activity_pennycress">Pennycress</string>
+    <string name="title_activity_purslane">Purslane</string>
+    <string name="title_activity_thistle">Thistle</string>
+    <string name="title_activity_weeds">weeds</string>
+</resources>

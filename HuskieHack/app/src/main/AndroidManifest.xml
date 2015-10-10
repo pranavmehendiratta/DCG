@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.patron.huskiehack" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DCG"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity
+            android:name="com.example.patron.huskiehack.MainActivity"
+            android:label="HuskieHack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name=".weeds"
+            android:label="@string/title_activity_weeds" >
+        </activity>
+        <activity
+            android:name=".Bindweed"
+            android:label="@string/title_activity_bindweed" >
+        </activity>
+        <activity
+            android:name=".Broadleaf_Plaintain"
+            android:label="@string/title_activity_broadleaf_plaintain" >
+        </activity>
+        <activity
+            android:name=".Chicory"
+            android:label="@string/title_activity_chicory" >
+        </activity>
+        <activity
+            android:name=".common_burdock"
+            android:label="@string/title_activity_common_burdock" >
+        </activity>
+        <activity
+            android:name=".Henbit"
+            android:label="@string/title_activity_henbit" >
+        </activity>
+        <activity
+            android:name=".Lambs_Quarters"
+            android:label="@string/title_activity_lambs_quarters" >
+        </activity>
+        <activity
+            android:name=".Mallow"
+            android:label="@string/title_activity_mallow" >
+        </activity>
+        <activity
+            android:name=".Morning_Glory"
+            android:label="@string/title_activity_morning_glory" >
+        </activity>
+        <activity
+            android:name=".Pennycress"
+            android:label="@string/title_activity_pennycress" >
+        </activity>
+        <activity
+            android:name=".Purslane"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name=".Thistle"
+            android:label="@string/title_activity_contact" >
+        </activity>
+
+
+    </application>
+
+</manifest>
